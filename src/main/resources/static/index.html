@@ -1,23 +1,101 @@
 <!DOCTYPE html>
 <html>
-    <head>
+     <head>
         <title>Tienda en Línea</title>
         <meta charset="UTF-8">
+        <meta name="descrprion" content="Pagina de la leccion 2" />
+        <meta name="keywords" content="html5, css, web, fidelitas" />
+        <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+        <link href="css/menu.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <div>
-            <h1 style="color: green; text-align: center;">Home</h1>
-            <p>Bienvwnidos a la página de la tienda en línea...</p>
-        </div>
+        <!-- Esta etiqueta indica al navegador que es un nav -->
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">TechShop</a>
+                <ul class="nav-menu">
+                    <li class="nav-meu-item"><a class="nav-menu-link nav-link" href="ejemplo9.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-meu-item"><a class="nav-menu-link nav-link" href="ejemplo2.html">&RightTriangleBar;</a></li>
+                    <li class="nav-meu-item"><a class="nav-menu-link nav-link" href="audios.html">Audios</a></li>
+                    <li class="nav-meu-item"><a class="nav-menu-link nav-link" href="videos.html">Videos</a></li>
+                    <li class="nav-meu-item"><a class="nav-menu-link nav-link" href="iframes.html">iFrames</a></li>
+                    <li class="nav-meu-item"><a class="nav-menu-link nav-link" href="formularios.html">Formularios</a></li>
+                </ul>
+            </nav>
+        </header>
         
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit commodo interdum, leo sodales nisi dui nam tristique accumsan quam. Lacus mi torquent litora dis pellentesque pharetra augue faucibus, ante auctor nisl egestas quis venenatis parturient porttitor ornare, ullamcorper himenaeos magnis aliquet rutrum curae imperdiet. Et hendrerit conubia laoreet augue torquent dapibus fringilla leo, tempus fames morbi rhoncus nostra mattis vestibulum, duis at faucibus ante erat id interdum. Justo class vulputate vel commodo dapibus nullam nascetur, nisl et scelerisque litora etiam tortor accumsan, id mi nostra sem proin purus.</p>
-        <p>Dignissim vulputate at semper mi sed consequat arcu tempor, euismod volutpat justo vel himenaeos egestas dictumst, sociis senectus ultrices morbi potenti pulvinar viverra. Lectus cum sagittis commodo eu phasellus sodales porttitor, hendrerit non justo est nibh convallis, himenaeos consequat risus natoque conubia dis. Maecenas primis eu convallis cubilia facilisis tortor feugiat nam justo sodales, dictumst nostra massa nibh penatibus vestibulum pellentesque dictum congue, eget varius hendrerit platea dignissim netus nunc cum lacinia.</p>
-        <p>Dapibus at porttitor sed libero posuere convallis dis massa euismod, hac suscipit nostra imperdiet per dui urna habitant, nam a facilisi dictum mi quis volutpat feugiat. Magna etiam penatibus ultrices suscipit cras congue condimentum cum, fusce libero feugiat ridiculus sapien purus scelerisque faucibus nec, primis platea facilisis molestie mi odio tincidunt. Libero nulla accumsan dui metus tempus luctus habitant torquent habitasse, proin arcu tincidunt vestibulum posuere dapibus natoque a imperdiet, ultricies ante platea maecenas vehicula nec himenaeos pellentesque.</p>
-        
-        <br/> 
-        <br/>
-        <br/>
-        
-        <p>Última Línea</p>
+        <aside id="barraLateral">
+            <h2>Productos mas vendidos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus duis, turpis eleifend maecenas nisl mattis pulvinar parturient platea nulla, dictumst lectus magna hac purus congue curae fringilla. Dignissim massa nisl himenaeos luctus quis et sociosqu orci purus magna penatibus, etiam magnis justo sollicitudin class mauris senectus curabitur velit pretium. Vehicula accumsan facilisis lobortis habitant vulputate nisl, placerat hendrerit sollicitudin fames etiam tristique, tincidunt convallis quis cursus faucibus. Facilisis semper fusce varius netus eleifend ullamcorper suspendisse eros et, auctor in rhoncus id pulvinar montes sagittis parturient aliquam, vitae habitant nascetur ultrices orci augue porttitor habitasse.</p>
+        </aside>    
+        <section id="contenido">
+            <h2>Articulos Principales</h2>
+            <article>
+                <header>Asus Vivobook</header>
+                <p class="descripcion"><cite>Lorem ipsum dolor sit amet consectetur</cite> adipiscing elit faucibus duis, turpis eleifend maecenas nisl mattis pulvinar parturient platea nulla, dictumst lectus magna hac purus congue curae fringilla. Dignissim massa nisl himenaeos luctus quis et sociosqu orci purus magna penatibus, etiam magnis justo sollicitudin class mauris senectus curabitur velit pretium. Vehicula accumsan facilisis lobortis habitant vulputate nisl, placerat hendrerit sollicitudin fames etiam tristique, tincidunt convallis quis cursus faucibus. Facilisis semper fusce varius netus eleifend ullamcorper suspendisse eros et, auctor in rhoncus id pulvinar montes sagittis parturient aliquam, vitae habitant nascetur ultrices orci augue porttitor habitasse.</p>
+                <figure>
+                    <img src="images/Equipo1.jpg" alt="Asus Vivobook" width="200"/>
+                    <figcaption>Imagen con fines ilustrativos</figcaption>
+                </figure>
+            </article>
+            <article>
+                <header>Alienware ATD 900</header>
+                <p class="descripcion"><cite>Lorem ipsum dolor sit amet consectetur</cite> adipiscing elit faucibus duis, turpis eleifend maecenas nisl mattis pulvinar parturient platea nulla, dictumst lectus magna hac purus congue curae fringilla. Dignissim massa nisl himenaeos luctus quis et sociosqu orci purus magna penatibus, etiam magnis justo sollicitudin class mauris senectus curabitur velit pretium. Vehicula accumsan facilisis lobortis habitant vulputate nisl, placerat hendrerit sollicitudin fames etiam tristique, tincidunt convallis quis cursus faucibus. Facilisis semper fusce varius netus eleifend ullamcorper suspendisse eros et, auctor in rhoncus id pulvinar montes sagittis parturient aliquam, vitae habitant nascetur ultrices orci augue porttitor habitasse.</p>
+                <figure>
+                    <img src="images/Equipo2.jpg" alt="Alienware ATD 900" width="200"/>
+                    <figcaption>Imagen con fines ilustrativos</figcaption>
+                </figure>
+            </article>
+            <article>
+                <header>Impresora 3D</header>
+                <p class="descripcion"><cite>Lorem ipsum dolor sit amet consectetur</cite> adipiscing elit faucibus duis, turpis eleifend maecenas nisl mattis pulvinar parturient platea nulla, dictumst lectus magna hac purus congue curae fringilla. Dignissim massa nisl himenaeos luctus quis et sociosqu orci purus magna penatibus, etiam magnis justo sollicitudin class mauris senectus curabitur velit pretium. Vehicula accumsan facilisis lobortis habitant vulputate nisl, placerat hendrerit sollicitudin fames etiam tristique, tincidunt convallis quis cursus faucibus. Facilisis semper fusce varius netus eleifend ullamcorper suspendisse eros et, auctor in rhoncus id pulvinar montes sagittis parturient aliquam, vitae habitant nascetur ultrices orci augue porttitor habitasse.</p>
+                <figure>
+                    <img src="images/Equipo3.jpg" alt="Impresora 3D" width="200"/>
+                    <figcaption>Mas Economico</figcaption>
+                </figure>
+            </article>
+            <br/>
+            <br/>
+            <article>
+                <h2>Lineas de producto</h2>
+                <table border="0">
+                    <thead id="encabezadoTabla"> 
+                        <tr>
+                            <th>Codigo</th>
+                            <th>Descripcion</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaResumen">
+                        <tr>
+                            <td>1</td>
+                            <td>Teclados</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Monitores</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Portatiles</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Perifericos</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Baterias</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Headsets</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+        <footer id="piePagina">
+            Derechos reservados &COPY; 2023 <address class="lineaDireccion">Tibas, Colima</address> <address class="lineaDireccion">8877-4411</address>
+        </footer>
     </body>
 </html>
