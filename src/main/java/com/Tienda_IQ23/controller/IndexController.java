@@ -14,8 +14,9 @@ import org.springframework.web.bind.annotation.GetMapping;
  *
  * @author Joseth
  */
+@Controller
 public class IndexController {
-     @Autowired
+    @Autowired
     ClienteDao clienteDao;
 
     @GetMapping("/")
