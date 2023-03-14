@@ -34,6 +34,7 @@ public class IndexController {
         //List<Cliente> clientes = Arrays.asList(cliente, cliente2, cliente3);
         // model.addAttribute("clientes", clientes);
         var clientes = clienteDao.findAll();
+        model.addAttribute("clienteDao", clientes); 
         return "index";
     }
 
